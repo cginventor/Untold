@@ -1,0 +1,3 @@
+[submodule "Untold/vendor"]
+	path = Untold/vendor
+	url = https://github.com/gabime/spdlog
