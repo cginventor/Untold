@@ -1,36 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Untold">
+      <UniqueIdentifier>{1B8C2DD6-072E-58AC-F0E8-6B00DC29DFFC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Untold\Events">
+      <UniqueIdentifier>{9F2B5F38-0BEC-DA6E-D426-24EC40A61F4B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Untold\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Untold.h" />
     <ClInclude Include="src\Untold\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Untold</Filter>
     </ClInclude>
-    <ClInclude Include="src\Untold.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\Untold\Core.h">
+      <Filter>Untold</Filter>
     </ClInclude>
     <ClInclude Include="src\Untold\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Untold</Filter>
     </ClInclude>
+    <ClInclude Include="src\Untold\Events\ApplicationEvent.h">
+      <Filter>Untold\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Untold\Events\Event.h">
+      <Filter>Untold\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Untold\Events\KeyEvent.h">
+      <Filter>Untold\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Untold\Events\MouseEvent.h">
+      <Filter>Untold\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Untold\Log.h">
+      <Filter>Untold</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Untold\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Untold</Filter>
     </ClCompile>
+    <ClCompile Include="src\Untold\Log.cpp">
+      <Filter>Untold</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utpch.cpp" />
   </ItemGroup>
 </Project>

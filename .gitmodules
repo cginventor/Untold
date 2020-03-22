@@ -1,3 +1,3 @@
-[submodule "Untold/vendor"]
-	path = Untold/vendor
+[submodule "Untold/vendor/spdlog"]
+	path = Untold/vendor/spdlog
 	url = https://github.com/gabime/spdlog

@@ -1,6 +1,7 @@
 #pragma once
 
-#include "Core.h"
+#include "Untold/Core.h"
+#include "Events/Event.h"
 
 namespace Untold {
 

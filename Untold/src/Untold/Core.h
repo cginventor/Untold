@@ -1,5 +1,6 @@
 #pragma once
 
+
 #ifdef UT_PLATFORM_WINDOWS
 	#ifdef UNTOLD_BUILD_DLL
 		#define UNTOLD_API __declspec(dllexport)
@@ -10,3 +11,5 @@
 	#error Untold only supports Windows!
 
 #endif
+
+#define BIT(x) (1 << x)
