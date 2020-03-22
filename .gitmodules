@@ -1,3 +1,6 @@
 [submodule "Untold/vendor/spdlog"]
 	path = Untold/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Untold/Untold/vendor/GLFW"]
+	path = Untold/Untold/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
